@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review</title>
+
+    <style>
+        .heading{
+            text-align: center;
+            padding-top: 13px;
+            font-size: 1.5rem;
+        }
+        .pera{
+            margin-left: 25rem;
+            padding-top: 15px;
+            text-align: center;
+        }
+        .pera #th{
+            font-size: 1.3rem;
+            background-color: #58e47b;
+        }
+        .pera #tr{
+            background-color:#58e47b ;
+        }
+        .pera #tr1{
+            background-color: #72A1F2;
+        }
+        .leng{
+            margin-top: 3rem;
+            margin-left:24.45rem;
+            width: 560px;
+            height: 430px;
+            font-size: 1.2rem;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="heading">Enter Your Reviews</h1>
+
+    <hr>
+
+    <table class="pera"  cellpadding="10" cellspacing="0">
+
+        <tr id="th">
+
+            <th>Step 1:Account</th>
+            <th id="tr">Step 2:Personal Details</th>
+            <th id="tr1">Step 3:Your Review</th>
+
+        </tr>
+        
+    </table>
+
+    <fieldset class="leng" >
+
+        <legend> <strong>Your Review </strong> </legend>
+
+        <form action="">
+
+            
+            <div>
+                <b>How did you hear about us?</b>
+                <select name="devices"  style="width: 9rem; height: 1.5rem;">
+                 <option value="facebook"  >facebook</option>
+                 <option value="news">news</option>
+                 <option value="friends">friends</option>
+                </select>  
+                <br>
+                <br> <b>Would you visit again?</b><br>
+                <input type="radio" name="genre" value="yes"checked="checked" /> Yes
+                <input type="radio" name="genre" value="no" />No
+                <input type="radio" name="genre" value="maybe" />Maybe
+                <br> <br>
+                <b>comments</b><br>
+                <textarea name="comments" cols="20" rows="6" style="width: 21rem;" placeholder="Enter your comments..."></textarea><br>
+                <br>
+                <b>Document</b><br>
+                <input type="file" name="user-song" />
+                <br><br>
+                <input type="checkbox" name="sign" value="itunes" checked="checked" /> <b>Sign me up for email updates</b><br>
+                <br><a href="personal details.html">
+                    <img src="back.png" alt="" width="130"></a>
+                    <a href=""><img src="submit.png" alt="" width="130"></a>
+               
+            </div>         
+           
+          
+        </form>
+
+    </fieldset>
+    
+</body>
+
+</html>
